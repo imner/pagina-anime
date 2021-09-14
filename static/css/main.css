@@ -1,0 +1,85 @@
+.header-container{
+    display: inline;
+    margin: auto;
+    height: 200px;
+}
+.header-logo{
+    display: inline;
+    margin-left: 5%;
+}
+
+.header-logo img{
+    height: 120px;
+    width: 100px;
+    border-radius: 50%;
+}
+.header-pages{
+    display: inline;
+}
+.header-pages a{
+    font-family:fantasy;
+    font-size: 35px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 14%;
+    color:rgb(81, 182, 250);
+    margin-top: auto;
+    vertical-align:top;
+}
+.header-title{
+    margin:auto;
+}
+.header-title{
+    text-align: center;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:chocolate;
+}
+.header-style{
+    font-size: 20px;
+}
+.header-images img{
+    height: 350px;
+    width: 100%;
+}
+.header-text{
+    margin: 0px 0px 0px 25px
+}
+.header-text{
+    font-size: 20px;
+    font-family: fantasy;
+    color: darkslategray;
+}
+.anime-seccion {
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5%;
+    color:darkslategray;
+}
+.anime-image img{
+    height: 300px;
+    width: 100%;
+    /* vertical-align: text-bottom; */
+    /* grid-column: 2 / 4; */
+}
+.anime-text {
+    /* position: absolute; */
+    /* left: 350px;
+    top:200px; */
+    /* margin:5%; */
+    font-family: fantasy;
+    color:darkslategray;
+    /* grid-column: 2 / 4; */
+    
+}
+.anime-text p {
+    margin: 0;
+}
+.container-anime-seccion{
+    display: grid;
+    /* grid-template-columns:  repeat(2, 150px); */
+    /* grid-template-rows: repeat(2, 100px); */
+    grid-template-columns: 30% 60%;
+    grid-gap: 10%;
+    /* display: grid; */
+}
